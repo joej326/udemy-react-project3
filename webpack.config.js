@@ -7,6 +7,7 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
+  devtool: 'sourcemap',
   module: {
     loaders: [{
       exclude: /node_modules/,
